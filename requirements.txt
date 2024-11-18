@@ -1,0 +1,11 @@
+fastapi
+fastparquet
+joblib
+lightfm
+pandas
+polars
+pyarrow
+requests
+scikit-learn
+scipy
+uvicorn
