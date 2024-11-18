@@ -35,7 +35,7 @@ router = APIRouter(
 )
 
 
-@router.get("/", status_code=status.HTTP_200_OK)
+@router.post("/", status_code=status.HTTP_200_OK)
 async def get_recomendations(request_app: BaseRecommendationRequest) -> BaseRecomendations:
     """
     get_recomendations: recibe una peticion GET con payload con la estructura de BaseRecommendationRequest
